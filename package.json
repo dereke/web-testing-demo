@@ -1,0 +1,30 @@
+{
+  "name": "web-testing-demo",
+  "version": "1.0.0",
+  "description": "A demo of how to test web sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "keywords": [
+    "web",
+    "test",
+    "karma"
+  ],
+  "author": "Derek Ekins",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-monkey": "^1.13.0",
+    "browserify": "^11.0.0",
+    "debug": "^2.2.0",
+    "karma": "^0.12.36",
+    "karma-browserify": "3.0.3",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.0.2",
+    "mock-xhr-router": "git://github.com/dereke/mock-xhr-router.git"
+  },
+  "dependencies": {
+    "jquery": "2.1.4"
+  }
+}
